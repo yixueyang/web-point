@@ -28,6 +28,11 @@ export default {
                 url:'/newFunAndThis',
                 title:'this在对象和构造函数的指向',
                 introduce:'悟到一丢丢'
+            },
+            {
+                url:'/newLearnLess',
+                title:'如何用less整个特效',
+                introduce:'之前我白瞎了less要重新看看啊'
             }
         ]
     };
@@ -41,6 +46,7 @@ export default {
 </script>
 <style lang="less"  scoped>
   #rightCardList{
+
     .cardClass{
       width:100%;
       height: 100%;
@@ -50,11 +56,30 @@ export default {
       border-radius: 5px;
       cursor: pointer;
       box-shadow: 0px 0px 10px #b4bccc;
-      /*transition-property:width,height;*/
-      /*transition-duration: 2s;*/
-      /*transition-timing-function: linear*/
-      transition:width,height 2s;
+      .transition(width,3s,linear,0);
     }
+    .transition(@pro,@dur,@fn,@delay){
+      -webkit-transition-property: @pro;
+      -moz-transition-property: @pro;
+      -o-transition-property: @pro;
+      transition-property: @pro;
+
+      -webkit-transition-duration: @dur;
+      -moz-transition-duration: @dur;
+      -o-transition-duration: @dur;
+      transition-duration: @dur;
+
+      -webkit-transition-timing-function: @fn;
+      -moz-transition-timing-function: @fn;
+      -o-transition-timing-function:@fn;
+      transition-timing-function: @fn;
+
+      -webkit-transition-delay: @delay;
+      -moz-transition-delay: @delay;
+      -o-transition-delay: @delay;
+      transition-delay: @delay;
+    }
+
   }
 
 </style>

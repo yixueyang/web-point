@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import firstPointListPage from '@/components/firstPointListPage'
 import HelloWorld from '@/components/HelloWorld'
 import newFunAndThis from '@/components/newFunAndThis'
+import newLearnLess from '@/components/newLearnLess'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/newFunAndThis',
       name: 'newFunAndThis',
       component: newFunAndThis
+    },
+    {
+      path: '/newLearnLess',
+      name: 'newLearnLess',
+      component: newLearnLess
     }
   ]
 })
