@@ -42,7 +42,7 @@
         <pre>
          let car = {}
          let val = 3000
-         Object.defineProperty(car, 'price', {   
+         Object.defineProperty(car, 'price', {
             configurable: false,
           })
            Object.defineProperty(car, 'price', {
@@ -93,8 +93,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-pre{
-  background-color: black;
-    color: white;
-}
+/*pre{*/
+/*  background-color: black;*/
+/*    color: white;*/
+/*}*/
 </style>
