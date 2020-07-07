@@ -19,12 +19,13 @@
 
 <style lang="less" scoped>
 #firstPointPage{
+  height: 100%;
   display: flex;
   .leftCardClass{
     width: 30%;
-    border-right: 1px solid #b4bccc;
+    height: 100%;
     margin-right: 15px;
-    padding: 10px;
+    background-color:#b4bccc ;
   }
   .rightCardClass{
     width: 70%;

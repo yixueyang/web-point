@@ -2,10 +2,9 @@
 <div id="rightCardList">
   <div>
     <div v-for="item in cardList" class="cardClass" @click.stop.prevent="clickInToNext(item.url)">
-      <div ><span style="font-size: 30px;font-weight: bold">{{item.title}}</span></div>
-      <div>
+      <div style="height: 40px" ><span style="font-size: 30px;font-weight: bold">{{item.title}}</span></div>
         <p>介绍：{{item.introduce}}</p>
-      </div>
+
     </div>
   </div>
 
@@ -44,40 +43,32 @@ export default {
     }
 };
 </script>
+<style>
+
+</style>
 <style lang="less"  scoped>
   #rightCardList{
-
     .cardClass{
       width:100%;
-      height: 100%;
+      height: 100px;
       padding: 10px;
       margin-bottom: 10px;
       border: 1px solid #b4bccc;
       border-radius: 5px;
       cursor: pointer;
-      box-shadow: 0px 0px 10px #b4bccc;
-      .transition(width,3s,linear,0);
+    //  box-shadow: 0px 0px 10px #b4bccc;
+      .transition(@property:all;@duration:5ms);
+        &:hover{
+          height:102px;
+          box-shadow: 0px 0px 10px #b4bccc;
+      }
     }
-    .transition(@pro,@dur,@fn,@delay){
-      -webkit-transition-property: @pro;
-      -moz-transition-property: @pro;
-      -o-transition-property: @pro;
-      transition-property: @pro;
-
-      -webkit-transition-duration: @dur;
-      -moz-transition-duration: @dur;
-      -o-transition-duration: @dur;
-      transition-duration: @dur;
-
-      -webkit-transition-timing-function: @fn;
-      -moz-transition-timing-function: @fn;
-      -o-transition-timing-function:@fn;
-      transition-timing-function: @fn;
-
-      -webkit-transition-delay: @delay;
-      -moz-transition-delay: @delay;
-      -o-transition-delay: @delay;
-      transition-delay: @delay;
+    .transition(@property:all,@duration:1s,@time-function:linear,@delay:0s){
+      -webkit-transition: @arguments;
+      -moz-transition: @arguments;
+      -ms-transition: @arguments;
+      -o-transition: @arguments;
+      transition: @arguments;
     }
 
   }
