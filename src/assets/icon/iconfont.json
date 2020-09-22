@@ -1,0 +1,100 @@
+{
+  "id": "1316419",
+  "name": "mcp-web",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2135390",
+      "name": "可爱",
+      "font_class": "keai",
+      "unicode": "e783",
+      "unicode_decimal": 59267
+    },
+    {
+      "icon_id": "3900762",
+      "name": "文字",
+      "font_class": "wenzi",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "5027618",
+      "name": "鸡腿",
+      "font_class": "jitui",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "5072218",
+      "name": "煎蛋",
+      "font_class": "egg",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "5113713",
+      "name": "饭团",
+      "font_class": "fantuan",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "8822687",
+      "name": "饭团",
+      "font_class": "fantuan1",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "9269932",
+      "name": "煎蛋",
+      "font_class": "-",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "10651498",
+      "name": "饭",
+      "font_class": "fan",
+      "unicode": "e88a",
+      "unicode_decimal": 59530
+    },
+    {
+      "icon_id": "13403775",
+      "name": "代码",
+      "font_class": "icon-test-copy",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "13791896",
+      "name": "代码",
+      "font_class": "daima",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "14207013",
+      "name": "插入 X",
+      "font_class": "charuX",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "15167991",
+      "name": "代码",
+      "font_class": "ai-code-blue",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "10080845",
+      "name": "支持移动端微服务",
+      "font_class": "zhichiyidongduanweifuwu",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    }
+  ]
+}

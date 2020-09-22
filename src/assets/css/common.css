@@ -10,3 +10,6 @@ pre{
   color: white;
   font-size: 15px;
 }
+textarea{
+  outline:none;
+}

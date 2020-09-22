@@ -30,9 +30,9 @@ function aAddb(r){
 
  let addFun = memoize(aAddb);
 
-console.log(addFun(1,2))
-console.log(addFun(1,2))
-console.log(addFun(1,2))
+//console.log(addFun(1,2))
+//console.log(addFun(1,2))
+//console.log(addFun(1,2))
 
 //lodash里的函数柯里化_.curry
 //柯里化：把多参数的函数转换为一元函数
@@ -44,9 +44,9 @@ function getSum(a,b,c){
 
 //const curried = _.curry(getSum)
 const curried = curry(getSum)
-console.log(curried(1,2,3))
-console.log(curried(1)(2,3))
-console.log(curried(1,2)(3))
+//console.log(curried(1,2,3))
+//console.log(curried(1)(2,3))
+//console.log(curried(1,2)(3))
 
 //手动模拟一个curry函数
 function curry(func){
@@ -56,7 +56,7 @@ function curry(func){
         if(args.length<func.length){
              return function(){
                 return curriedFn(... args.concat(Array.from(arguments)))
- 
+
              }
         }
         return func(...args)
@@ -80,7 +80,7 @@ const toUpper = s => s.toUpperCase()
 
 const f = compose(toUpper,firse,reverse)
 
-console.log(f(['one','two','three']))
+//console.log(f(['one','two','three']))
 
 function compose(...args){
     return function(value){
@@ -95,4 +95,4 @@ function compose(...args){
 
 //箭头函数改写
 
-const compose = (...args)=> value => args.reverse().reduce((acc,fn) => fn(acc),value)
+//const compose = (...args)=> value => args.reverse().reduce((acc,fn) => fn(acc),value)

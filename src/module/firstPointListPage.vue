@@ -22,7 +22,7 @@
   height: 100%;
   display: flex;
   .leftCardClass{
-    width: 30%;
+    width: 20%;
     height: 100%;
     margin-right: 15px;
     background-color:#b4bccc ;

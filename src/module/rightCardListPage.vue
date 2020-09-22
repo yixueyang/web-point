@@ -32,6 +32,11 @@ export default {
                 url:'/newLearnLess',
                 title:'如何用less整个特效',
                 introduce:'之前我白瞎了less要重新看看啊'
+            },
+            {
+                url:'/handInputJs',
+                title:'手写js',
+                introduce:'手写js手写js手写js手写js手写js'
             }
         ]
     };
